@@ -1,3 +1,4 @@
+# Auto.data is obtained from http://faculty.marshall.usc.edu/gareth-james/ISL/data.html
 PlotAuto <- function() {
   Auto=read.table("Auto.data", header=T, na.strings="?")
   Auto[1:4,]
